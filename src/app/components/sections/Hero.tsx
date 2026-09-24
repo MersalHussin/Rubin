@@ -8,61 +8,50 @@ export default function Hero({ t, lang }: { t: any; lang: string }) {
   const isArabic = lang === "ar";
 
   return (
-    <section className="relative w-full min-h-[100svh] flex items-center justify-center bg-[#FAFAFA] overflow-hidden">
+    <section className="relative w-full min-h-[100svh] flex items-center justify-center bg-white overflow-hidden">
       
-      {/* Super clean elegant background */}
-      <div className="absolute inset-0 bg-[#FAFAFA] z-0"></div>
-      
-      {/* Very subtle elegant gradient on the side */}
-      <div className="absolute top-0 right-0 w-[50vw] h-[100vh] bg-gradient-to-l from-[#f0eae6]/60 to-transparent z-0 pointer-events-none" />
+      {/* Abstract premium background elements */}
+      <div className="absolute inset-0 z-0">
+        <div className="absolute top-0 right-0 w-[60vw] h-[100vh] bg-gradient-to-bl from-second/5 via-transparent to-transparent pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-[40vw] h-[60vh] bg-gradient-to-tr from-main/5 via-transparent to-transparent pointer-events-none" />
+        {/* Subtle grid pattern */}
+        <div className="absolute inset-0 bg-[url('/images/grid.svg')] bg-center opacity-[0.02]" />
+      </div>
 
-      <div className="max-w-7xl mx-auto px-6 w-full grid lg:grid-cols-2 gap-12 lg:gap-20 items-center relative z-10 pt-32 pb-20">
+      <div className="max-w-7xl mx-auto px-6 w-full grid lg:grid-cols-12 gap-12 lg:gap-8 items-center relative z-10 pt-32 pb-20">
         
         {/* Text Content */}
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className={`flex flex-col justify-center ${isArabic ? 'lg:pl-10 text-right' : 'lg:pr-10 text-left'}`}
+          className={`flex flex-col justify-center lg:col-span-6 ${isArabic ? 'lg:pl-8 text-right' : 'lg:pr-8 text-left'}`}
           dir={isArabic ? 'rtl' : 'ltr'}
         >
-          {/* Elegant Eyebrow */}
-          <motion.div 
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-            className="flex items-center gap-4 mb-6"
-          >
-            <div className="w-12 h-[1px] bg-main/40" />
-            <span className="text-main font-medium tracking-[0.2em] uppercase text-xs sm:text-sm">
-              {isArabic ? "عناية فائقة وتطوير مستمر" : "Premium & Advanced Haircare"}
-            </span>
-          </motion.div>
-
-          <h1 className="text-4xl md:text-5xl lg:text-[56px] xl:text-[64px] font-bold mb-8 text-[#1a1a1a] tracking-tight leading-[1.15]">
+          <h1 className="text-4xl md:text-5xl lg:text-[60px] xl:text-[72px] font-black mb-8 text-main tracking-tight leading-[1.1]">
             {t.heroTitle}
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-500 mb-12 leading-relaxed max-w-lg font-medium">
+          <p className="text-lg md:text-xl text-slate-500 mb-12 leading-relaxed max-w-lg font-medium">
             {t.heroSubtitle}
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-5">
             <Link
               href="#products"
-              className="group flex items-center justify-center gap-3 bg-[#d81f25] text-white px-9 py-4 rounded-full font-medium tracking-wide text-lg transition-all duration-300 hover:bg-[#b91f25] hover:shadow-xl hover:shadow-[#d81f25]/20 hover:-translate-y-0.5 w-full sm:w-auto"
+              className="group flex items-center justify-center gap-3 bg-main text-white px-9 py-4 rounded-full font-bold tracking-wide text-lg transition-all duration-300 hover:bg-main-hover hover:shadow-[0_15px_30px_rgba(15,23,42,0.2)] hover:-translate-y-1 w-full sm:w-auto"
             >
               <span>{t.ctaBtn}</span>
               {isArabic ? (
-                <ArrowLeft size={18} className="group-hover:-translate-x-1 transition-transform duration-300" />
+                <ArrowLeft size={18} className="group-hover:-translate-x-1.5 transition-transform duration-300" />
               ) : (
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform duration-300" />
+                <ArrowRight size={18} className="group-hover:translate-x-1.5 transition-transform duration-300" />
               )}
             </Link>
             
             <Link
               href="#contact-us"
-              className="flex items-center justify-center gap-3 text-gray-700 bg-transparent hover:text-[#d81f25] px-9 py-4 rounded-full font-medium tracking-wide text-lg transition-all duration-300 w-full sm:w-auto border border-gray-300 hover:border-[#d81f25] hover:bg-white"
+              className="flex items-center justify-center gap-3 text-main bg-transparent hover:text-second px-9 py-4 rounded-full font-bold tracking-wide text-lg transition-all duration-300 w-full sm:w-auto border-2 border-main/10 hover:border-second hover:bg-second/5"
             >
               {isArabic ? "تواصل معنا" : "Contact Us"}
             </Link>
@@ -71,30 +60,27 @@ export default function Hero({ t, lang }: { t: any; lang: string }) {
 
         {/* Image / Visuals */}
         <motion.div 
-          initial={{ opacity: 0, scale: 0.98, filter: "blur(5px)" }}
+          initial={{ opacity: 0, scale: 0.95, filter: "blur(10px)" }}
           animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
           transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
-          className="relative h-[550px] md:h-[650px] w-full hidden lg:flex justify-center items-center lg:mt-0 mt-8"
+          className="relative h-[550px] md:h-[650px] w-full hidden lg:flex justify-center items-center lg:mt-0 mt-8 lg:col-span-6"
         >
-          {/* Aesthetic Arch Frame */}
-          <div className="relative w-full max-w-[420px] h-[95%] rounded-t-[14rem] rounded-b-[2rem] p-3 bg-white shadow-[0_30px_60px_-15px_rgba(0,0,0,0.08)]">
-            <div className="relative w-full h-full rounded-t-[13.5rem] rounded-b-[1.5rem] overflow-hidden group">
-              <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-1000 z-20 pointer-events-none" />
-              <Image
-                src="/images/bgHero3.jpg"
-                alt="Hevera Premium Haircare"
-                fill
-                className="object-cover object-center group-hover:scale-105 transition-transform duration-[3s] ease-out"
-                priority
-                quality={100}
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent pointer-events-none"></div>
-            </div>
-            
-            {/* Elegant Minimalist Accent dot */}
-            <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 w-8 h-8 rounded-full bg-white shadow-sm border border-gray-100 flex items-center justify-center">
-              <div className="w-2 h-2 rounded-full bg-[#d81f25]"></div>
-            </div>
+          {/* Aesthetic Modern Layout */}
+          <div className="relative w-full h-full flex items-center justify-center">
+             
+             {/* Main Image Frame */}
+             <div className="relative w-full max-w-[480px] aspect-[4/5] p-2 bg-white rounded-3xl shadow-[0_40px_80px_-20px_rgba(0,0,0,0.1)] z-10 overflow-hidden group">
+               <div className="absolute inset-0 bg-gradient-to-tr from-second/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 z-20 pointer-events-none" />
+               <Image
+                 src="/images/bgHero.jpg"
+                 alt="Rubin Premium"
+                 fill
+                 className="object-cover object-center rounded-[1.2rem] group-hover:scale-105 transition-transform duration-[2s] ease-out"
+                 priority
+                 quality={100}
+               />
+               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent rounded-[1.2rem] pointer-events-none" />
+             </div>
           </div>
         </motion.div>
 

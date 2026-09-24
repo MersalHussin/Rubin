@@ -310,7 +310,7 @@ export default function Contact({ t, lang }: { t: any; lang: string }) {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="w-full bg-slate-900 text-white hover:bg-main py-4 md:py-5 rounded-xl text-lg md:text-xl font-bold transition-all duration-500 shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:shadow-[0_15px_30px_rgba(14,77,56,0.2)] hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 cursor-pointer"
+                      className="w-full bg-main text-white hover:bg-main-hover py-4 md:py-5 rounded-xl text-lg md:text-xl font-bold transition-all duration-500 shadow-[0_10px_20px_rgba(0,0,0,0.1)] hover:shadow-[0_15px_30px_rgba(15,23,42,0.2)] hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:translate-y-0 cursor-pointer"
                     >
                       {isSubmitting ? (
                         <div className="w-6 h-6 border-3 border-white/30 border-t-white rounded-full animate-spin mx-auto" />
