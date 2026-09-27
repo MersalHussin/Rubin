@@ -27,7 +27,7 @@ export default function TermsPage() {
         <div className="space-y-8 text-lg text-slate-600 leading-relaxed bg-white p-8 md:p-12 rounded-[2rem] shadow-[0_10px_40px_rgba(0,0,0,0.03)] border border-slate-100">
           {isAr ? (
             <>
-              <p>مرحباً بك في روبين. باستخدامك لموقعنا، فإنك توافق على الالتزام بالشروط والأحكام التالية. يرجى قراءتها بعناية.</p>
+              <p>مرحباً بك في بون. باستخدامك لموقعنا، فإنك توافق على الالتزام بالشروط والأحكام التالية. يرجى قراءتها بعناية.</p>
               
               <h2 className="text-2xl font-bold text-main mt-8 mb-4">1. استخدام الموقع</h2>
               <p>يجب أن يكون استخدامك للموقع لأغراض قانونية فقط. يُمنع استخدام الموقع بأي طريقة قد تتسبب في ضرر أو تعطيل أو إعاقة لخدماتنا.</p>
@@ -36,17 +36,17 @@ export default function TermsPage() {
               <p>نحن نسعى لضمان دقة المعلومات المتعلقة بمنتجاتنا. ومع ذلك، لا نضمن خلو الموقع من الأخطاء فيما يتعلق بوصف المنتجات أو الأسعار. نحتفظ بالحق في تصحيح أي أخطاء أو تحديث المعلومات في أي وقت.</p>
               
               <h2 className="text-2xl font-bold text-main mt-8 mb-4">3. الملكية الفكرية</h2>
-              <p>جميع المحتويات الموجودة على هذا الموقع، بما في ذلك النصوص، الصور، الشعارات، والتصاميم، هي ملك لعلامة روبين ومحمية بموجب قوانين حقوق الطبع والنشر.</p>
+              <p>جميع المحتويات الموجودة على هذا الموقع، بما في ذلك النصوص، الصور، الشعارات، والتصاميم، هي ملك لعلامة بون ومحمية بموجب قوانين حقوق الطبع والنشر.</p>
               
               <h2 className="text-2xl font-bold text-main mt-8 mb-4">4. حدود المسؤولية</h2>
-              <p>روبين غير مسؤولة عن أي أضرار مباشرة أو غير مباشرة ناتجة عن استخدام أو عدم القدرة على استخدام الموقع أو المنتجات المشتراة من خلاله.</p>
+              <p>بون غير مسؤولة عن أي أضرار مباشرة أو غير مباشرة ناتجة عن استخدام أو عدم القدرة على استخدام الموقع أو المنتجات المشتراة من خلاله.</p>
               
               <h2 className="text-2xl font-bold text-main mt-8 mb-4">5. التعديلات</h2>
               <p>نحتفظ بالحق في تعديل هذه الشروط والأحكام في أي وقت. استمرارك في استخدام الموقع بعد أي تغييرات يُعد قبولاً لهذه التعديلات.</p>
             </>
           ) : (
             <>
-              <p>Welcome to Rubin. By using our website, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.</p>
+              <p>Welcome to Bonn. By using our website, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.</p>
               
               <h2 className="text-2xl font-bold text-main mt-8 mb-4">1. Use of the Site</h2>
               <p>Your use of the site must be for lawful purposes only. You are prohibited from using the site in any way that causes, or may cause, damage to the website or impairment of the availability or accessibility of the site.</p>
@@ -55,10 +55,10 @@ export default function TermsPage() {
               <p>We strive to ensure the accuracy of the information regarding our products. However, we do not warrant that product descriptions or pricing are error-free. We reserve the right to correct any errors and update information at any time.</p>
               
               <h2 className="text-2xl font-bold text-main mt-8 mb-4">3. Intellectual Property</h2>
-              <p>All content on this website, including text, graphics, logos, and designs, is the property of Rubin and is protected by applicable copyright laws.</p>
+              <p>All content on this website, including text, graphics, logos, and designs, is the property of Bonn and is protected by applicable copyright laws.</p>
               
               <h2 className="text-2xl font-bold text-main mt-8 mb-4">4. Limitation of Liability</h2>
-              <p>Rubin shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use our site or products purchased through it.</p>
+              <p>Bonn shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use our site or products purchased through it.</p>
               
               <h2 className="text-2xl font-bold text-main mt-8 mb-4">5. Amendments</h2>
               <p>We reserve the right to amend these Terms & Conditions at any time. Your continued use of the website following any changes constitutes your acceptance of the new terms.</p>

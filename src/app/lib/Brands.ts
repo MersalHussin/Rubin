@@ -1,6 +1,6 @@
 export type BrandKey =
   | "Covix Care"
-  | "Rubin"
+  | "Bonn"
   | "B1Care"
   | "Sensa"
   | "Le Visage Plus"
@@ -9,7 +9,7 @@ export type BrandKey =
 
 export const brandsInfo: Record<BrandKey, { logo: string; name: string }> = {
   "Covix Care": { logo: "/images/covix.png", name: "Covix Care" },
-  "Rubin": { logo: "/images/rubin.png", name: "Rubin" },
+  "Bonn": { logo: "/images/bonn.png", name: "Bonn" },
   "B1Care": { logo: "/images/b1care.png", name: "B1Care" },
   "Sensa": { logo: "/images/Sensa.png", name: "Sensa" },
   "Le Visage Plus": { logo: "/images/Sensa.png", name: "Le Visage Plus" },

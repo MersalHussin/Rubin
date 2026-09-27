@@ -1,16 +1,16 @@
 export const translations: any = {
   en: {
     dir: "ltr",
-    brandName: "Rubin",
+    brandName: "Bonn للمكملات الغذائية",
     heroTitle: "Premium Food Supplements",
     heroSubtitle:
       "Precision-engineered formulations backed by German expertise. We deliver targeted, medical-grade food supplements for optimal health and vitality.",
     heroCta: "Explore Services",
 
     whoTitle: "Who We Are",
-    whoText: `Rubin is a Saudi brand specializing in advanced food supplements like vitamins, minerals, and specialized nutrition. We are part of the Bonn Medical Industries ecosystem, operating under a license from Germany's KOLN Naturstoffe. We develop targeted formulations to address real health and nutrition needs - not generic products, but precise solutions for every case. Each product is crafted with global medical standards, rigorous testing, and full transparency.`,
+    whoText: `Bonn is a Saudi brand specializing in advanced food supplements like vitamins, minerals, and specialized nutrition. We are part of the Bonn Medical Industries ecosystem, operating under a license from Germany's KOLN Naturstoffe. We develop targeted formulations to address real health and nutrition needs - not generic products, but precise solutions for every case. Each product is crafted with global medical standards, rigorous testing, and full transparency.`,
 
-    featuresTitle: "Why Rubin",
+    featuresTitle: "Why Bonn",
     features: [
       {
         title: "Global Standards",
@@ -61,9 +61,9 @@ export const translations: any = {
 
     ctaTitle: "Ready to feel the difference?",
     ctaBtn: "Browse Products",
-    partTitle: "Part of BON RUBIN",
+    partTitle: "Part of BON BONN",
     partText:
-      "Not a separate brand, but an integral part of BON Medical Industries' RUBIN system.",
+      "Not a separate brand, but an integral part of BON Medical Industries' BONN system.",
     partList: [
       "Internationally accredited with 150 medical infrastructures, modern laboratories, and advanced equipment.",
       "Specialized and experienced team including chemical engineers, dermatology experts, and consulting specialists.",
@@ -72,9 +72,9 @@ export const translations: any = {
       "Comprehensive documentation for every batch with certificates and test reports.",
       "Continuous support from marketing, customer service, and logistics teams.",
     ],
-    whyTitle: "Why Choose RUBIN",
+    whyTitle: "Why Choose BONN",
     whyList: [
-      "Choose RUBIN when you want a brand with a strong reputation backed by real medical expertise.",
+      "Choose BONN when you want a brand with a strong reputation backed by real medical expertise.",
       "Guaranteed quality from an internationally certified manufacturer.",
       "Transparency and reliability unmatched in the market.",
       "Professional support from a specialized and experienced team.",
@@ -135,7 +135,7 @@ export const translations: any = {
 
   ar: {
     dir: "rtl",
-    brandName: "روبين",
+    brandName: "بون للمكملات الغذائية",
     heroTitle: "مكملات غذائية احترافية للصحة",
     heroSubtitle:
       "تركيبات متطورة مدعومة بخبرة ألمانية. نقدم لك رعاية فائقة تستهدف الصحة العامة وتعيد الحيوية والنشاط لجسمك بأعلى معايير الجودة العالمية.",
@@ -143,9 +143,9 @@ export const translations: any = {
     heroCta: "استكشف الخدمات",
 
     whoTitle: "من نحن",
-    whoText: `روبين هي علامة تجارية سعودية متخصصة في تصنيع المكملات الغذائية المتقدمة مثل الفيتامينات والمعادن والتغذية المتخصصة. نحن جزء من منظومة مصنع بون للصناعات الطبية، وتعمل تحت ترخيص من ألمانيا KOLN Naturstoffe. متخصصون في تطوير تركيبات محددة لتلبية احتياجات الجسم الفعلية—لا منتجات عامة، بل حلول دقيقة لكل حالة. كل منتج مصنوع بمعايير طبية عالمية، مع اختبارات صارمة وشفافية كاملة.`,
+    whoText: `بون هي علامة تجارية سعودية متخصصة في تصنيع المكملات الغذائية المتقدمة مثل الفيتامينات والمعادن والتغذية المتخصصة. نحن جزء من منظومة مصنع بون للصناعات الطبية، وتعمل تحت ترخيص من ألمانيا KOLN Naturstoffe. متخصصون في تطوير تركيبات محددة لتلبية احتياجات الجسم الفعلية—لا منتجات عامة، بل حلول دقيقة لكل حالة. كل منتج مصنوع بمعايير طبية عالمية، مع اختبارات صارمة وشفافية كاملة.`,
 
-    featuresTitle: "لماذا روبين",
+    featuresTitle: "لماذا بون",
     features: [
       {
         title: "معايير عالمية",
@@ -196,9 +196,9 @@ export const translations: any = {
 
     ctaTitle: "جاهز لتجربة الفرق؟",
     ctaBtn: "تصفح المنتجات",
-    partTitle: "ضمن منظومة بون RUBIN",
+    partTitle: "ضمن منظومة بون BONN",
     partText:
-      "ليست علامة منفصلة، بل جزء متكامل من مصنع بون للصناعات الطبية RUBIN.",
+      "ليست علامة منفصلة، بل جزء متكامل من مصنع بون للصناعات الطبية BONN.",
     partList: [
       "معتمدة دولياً مع 150 بنية تحتية طبية عالمية، معامل حديثة، معدات متقدمة.",
       "فريق متخصص ومتمرس يشمل مهندسون كيميائيون، خبراء جلديين واستشاريون متخصصون.",
@@ -209,7 +209,7 @@ export const translations: any = {
     ],
     whyTitle: "النتيجة",
     whyList: [
-      "تختارون RUBIN عندما تريدون علامة تجارية بسمعة قوية مدعومة بخبرة طبية حقيقية.",
+      "تختارون BONN عندما تريدون علامة تجارية بسمعة قوية مدعومة بخبرة طبية حقيقية.",
       "جودة مضمونة من مصنع معتمد دولياً.",
       "شفافية وموثوقية لا تجد مثلها في السوق.",
       "دعم احترافي من فريق متخصص وذو خبرة.",

@@ -7,16 +7,16 @@ import MainWrapper from './components/sections/MainWrapper';
 import { Toaster } from 'sonner';
 
 export const metadata: Metadata = {
-  title: 'Rubin | روبين',
-  description: 'Rubin - Food Supplements | روبين - مكملات غذائية',
+  title: 'Bonn | بون',
+  description: 'Bonn - Food Supplements | بون - مكملات غذائية',
   icons: {
-    icon: '/images/Rubin.png',
-    apple: '/images/Rubin.png',
+    icon: '/images/Bonn-Logo.svg',
+    apple: '/images/Bonn-Logo.svg',
   },
   openGraph: {
-    title: 'Rubin | روبين',
-  description: 'Rubin - Food Supplements | روبين - مكملات غذائية',
-    images: [{ url: '/images/Rubin.png' }],
+    title: 'Bonn | بون',
+  description: 'Bonn - Food Supplements | بون - مكملات غذائية',
+    images: [{ url: '/images/Bonn-Logo.svg' }],
   },
 };
 

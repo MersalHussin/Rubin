@@ -39,7 +39,7 @@ export default function Features({ t }: { t: any }) {
           >
             <div className="w-12 h-px bg-second" />
             <span className="text-second font-medium tracking-[0.2em] text-sm uppercase">
-              {t.featuresTitle || (isArabic ? "لماذا روبين" : "Why Rubin")}
+              {t.featuresTitle || (isArabic ? "لماذا بون" : "Why Bonn")}
             </span>
           </motion.div>
         </div>

@@ -41,7 +41,7 @@ export default function SensaLogin() {
     <div className="flex flex-col items-center justify-center min-h-[80vh] px-4 font-sans" dir="rtl">
       
       <div className="mb-8 bg-white p-4 rounded-2xl shadow-sm border border-slate-100">
-        <Image src="/images/Rubin.png" alt="Rubin" width={140} height={50} className="object-contain h-10 w-auto" />
+        <Image src="/images/Bonn-Logo.svg" alt="Bonn" width={140} height={50} className="object-contain h-10 w-auto" />
       </div>
 
       <div className="bg-white p-8 md:p-10 rounded-3xl shadow-sm max-w-md w-full border border-slate-100 relative overflow-hidden">

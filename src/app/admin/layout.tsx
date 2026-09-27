@@ -32,7 +32,7 @@ function AdminShell({ children }: { children: ReactNode }) {
           {/* Mobile Header */}
           <header className="md:hidden flex items-center justify-between p-4 bg-white/80 backdrop-blur-xl border-b border-gray-200 sticky top-0 z-40">
             <Link href={'/'}>
-              <Image src="/images/Rubin.png" alt="Rubin" width={90} height={30} className="object-contain h-7 w-auto" priority />
+              <Image src="/images/Bonn-Logo.svg" alt="Bonn" width={90} height={30} className="object-contain h-7 w-auto" priority />
             </Link>
             <button
               onClick={() => supabase.auth.signOut()}
@@ -47,7 +47,7 @@ function AdminShell({ children }: { children: ReactNode }) {
             
             <div className="p-8 flex items-center justify-center border-b border-gray-100">
               <Link href={'/'} className="transition-transform hover:scale-105 duration-300">
-                <Image src="/images/Rubin.png" alt="Rubin" width={120} height={40} className="object-contain h-8 w-auto" priority />
+                <Image src="/images/Bonn-Logo.svg" alt="Bonn" width={120} height={40} className="object-contain h-8 w-auto" priority />
               </Link>
             </div>
             

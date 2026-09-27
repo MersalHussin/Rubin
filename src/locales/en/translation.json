@@ -6,7 +6,7 @@
   "cta.startManufacturing": "Start Manufacturing",
   "home": "Home",
   "about": "About Us",
-  "about_boon": "About Rubin",
+  "about_boon": "About Bonn",
   "certifications": "Certifications",
   "contact": "Contact",
   "operation": "Operations",
@@ -19,7 +19,7 @@
   "rnd": {
     "title": "Research & Development",
     "subtitle": "From Concept to Compliant, Stable, and Scalable Formulations",
-    "intro": "At Rubin, our R&D team is the engine driving innovation and quality in every product we create. With deep expertise in cosmetic science, regulatory compliance, and market trends",
+    "intro": "At Bonn, our R&D team is the engine driving innovation and quality in every product we create. With deep expertise in cosmetic science, regulatory compliance, and market trends",
     "introtitle": "",
     "process": {
       "title": "R&D Process — Step by Step",
@@ -120,11 +120,11 @@
   "video-subtitle": "A Whole New Look",
   "whoWeAre": "Who Are We..? ",
   "weAreDifferent": "About Us ",
-  "bmiIsFuture": "Rubin Is The Future ",
+  "bmiIsFuture": "Bonn Is The Future ",
   "aboutVideo": "https://www.youtube.com/embed/QVeLyK5S5co",
-  "aboutParagraph1": "Rubin is a contract manufacturer located in Riyadh, Saudi Arabia. Equipped with the latest and up to date machines and equipment, we are confident that we are able toFor the production of supplements, medical devices, health products, and nutritional supplements from the Saudi Food and Drug Authority under cGMP regulations, either for standard formulations as well as bespoke preparations when required. Our highly qualified staff is continuously improving and actualizing their knowledge to attend the constant advances in the sector.",
+  "aboutParagraph1": "Bonn is a contract manufacturer located in Riyadh, Saudi Arabia. Equipped with the latest and up to date machines and equipment, we are confident that we are able toFor the production of supplements, medical devices, health products, and nutritional supplements from the Saudi Food and Drug Authority under cGMP regulations, either for standard formulations as well as bespoke preparations when required. Our highly qualified staff is continuously improving and actualizing their knowledge to attend the constant advances in the sector.",
   "aboutParagraph2": "All these experience and qualifications helped us develop, formulate and manufacture highly professional supplements as well as providing the corresponding technical and documental support according to the latest Saudi Food and Drug Administration “SFDA” regulations ...",
-  "aboutParagraph3": "With all these qualities, Rubin is the ideal partner for companies searching for quality, security and improvement in their product’s development and manufacturing.",
+  "aboutParagraph3": "With all these qualities, Bonn is the ideal partner for companies searching for quality, security and improvement in their product’s development and manufacturing.",
   "readMore": "Read More..",
   "capability1": "Production Capacity: tons/day",
   "capability2": "Units per Day",
@@ -149,7 +149,7 @@
   "outlet": "Outlets",
   "brands": {
     "covixCare": "Covix Care",
-    "rubin": "Rubin",
+    "bonn": "Bonn للمكملات الغذائية",
     "b1Care": "B1Care",
     "leVisagePlus": "Le Visage Plus",
     "puCare": "PuCare",
@@ -218,12 +218,12 @@
   "hospital_solutions_desc": "Advanced solutions for hospitals with a focus on quality and efficiency.",
   "injection_services": "Injection Services",
   "injection_services_desc": " Advanced equipment and expertise for precise injection services.",
-  "pageTitle": "About Us | Rubin Medical Industries",
+  "pageTitle": "About Us | Bonn Medical Industries",
   "about_title": "About Us",
-  "p1": "Rubin is a contract manufacturer located in Riyadh, Saudi Arabia. Equipped with the latest and up to date machines and equipment, we are confident that we are able to provide the latest and novel formulations under cGMP regulations, either for standard formulations as well as bespoke preparations when required.",
+  "p1": "Bonn is a contract manufacturer located in Riyadh, Saudi Arabia. Equipped with the latest and up to date machines and equipment, we are confident that we are able to provide the latest and novel formulations under cGMP regulations, either for standard formulations as well as bespoke preparations when required.",
   "p2": "Our highly qualified staff is continuously improving and actualizing their knowledge to attend the constant advances in the sector.",
   "p3": "All these experience and qualifications helped us develop, formulate and manufacture highly professional supplements as well as providing the corresponding technical and documental support according to the latest Saudi Food and Drug Administration “SFDA” regulations.",
-  "p4": "With all these qualities, Rubin is the ideal partner for companies searching for quality, security and improvement in their product’s development and manufacturing.",
+  "p4": "With all these qualities, Bonn is the ideal partner for companies searching for quality, security and improvement in their product’s development and manufacturing.",
   "visionTitle": "Vision",
   "visionText": "To be a leading innovator in the medical and cosmetic industries, recognized globally for our unwavering commitment to product safety, exceptional quality, and regulatory excellence.",
   "missionTitle": "Mission",
@@ -253,7 +253,7 @@
   "Covix Care": "Covix Care",
   "Specialized in protective care.": "Specialized in protective care.",
   "ourStoryTitle": "Our Story",
-  "Rubin": "Rubin",
+  "Bonn": "Bonn للمكملات الغذائية",
   "Medical-grade skin solutions.": "Medical-grade skin solutions.",
   "B1 Care": "B1 Care",
   "Innovative skincare for all.": "Innovative wellness for all.",
@@ -276,7 +276,7 @@
   "Delivery_desc": "Final QA release, labeling, and dispatch.",
   "medical_consultiton": "Medical Consultation",
   "seeOurStory": "See Our Story",
-  "ourStoryText": "Founded to close the gap between ambition and execution, Rubin Factory was built on a simple belief: Saudi brands deserve manufacturing partners who are as dedicated to quality and speed as they are to vision. From our first production line to today’s integrated facility, we’ve kept our promise—combining advanced processes, disciplined QA/Regulatory practices, and a partnership-first mindset. We work side-by-side with founders, pharmacies, and retailers—translating briefs into stable formulas, compliant packs, and scalable production. Our team blends engineering precision with market insight, turning concepts into shelf-ready products that consumers trust and remember.",
+  "ourStoryText": "Founded to close the gap between ambition and execution, Bonn Factory was built on a simple belief: Saudi brands deserve manufacturing partners who are as dedicated to quality and speed as they are to vision. From our first production line to today’s integrated facility, we’ve kept our promise—combining advanced processes, disciplined QA/Regulatory practices, and a partnership-first mindset. We work side-by-side with founders, pharmacies, and retailers—translating briefs into stable formulas, compliant packs, and scalable production. Our team blends engineering precision with market insight, turning concepts into shelf-ready products that consumers trust and remember.",
   "valuesTitle": "Our Values",
   "value_quality_title": "Quality First",
   "value_quality_desc": "Quality isn’t a checkpoint—it's our operating system.",
@@ -294,7 +294,7 @@
     "title": "Operations",
     "subtitle": "Excellence in Quality Management and Research & Development.",
     "qms": {
-      "title": "Quality Management System of Rubin Medical Industries",
+      "title": "Quality Management System of Bonn Medical Industries",
       "vision": {
         "title": "Vision",
         "desc": "To be a leading innovator in the medical and cosmetic industries, recognized globally for our unwavering commitment to product safety, exceptional quality, and regulatory excellence."
@@ -322,7 +322,7 @@
           "desc": "Management review, supplier oversight, CAPA, audits, and continual improvement."
         },
         {
-          "title": "Rubin Medical QMS in Action",
+          "title": "Bonn Medical QMS in Action",
           "desc": "Corrective & preventive actions, structured change control, supplier qualification, and robust audit programs."
         },
         {
@@ -336,7 +336,7 @@
       ]
     },
     "cta": {
-      "title": "What is Quality at Rubin Medical?",
+      "title": "What is Quality at Bonn Medical?",
       "subtitle": "Delivering safe, effective, compliant products. Doing it right the first time. Customer satisfaction is our top priority.",
       "primary": "Contact Us",
       "secondary": "Learn More"
@@ -428,7 +428,7 @@
     "storage": "Required Storage Conditions",
     "notes": "Other Notes or Requests",
     "declarationTitle": "Declaration",
-    "declarationText": "I hereby certify the information provided is accurate and complete. I agree to comply with all regulatory, quality, and business requirements set by Rubin Medical Industries.",
+    "declarationText": "I hereby certify the information provided is accurate and complete. I agree to comply with all regulatory, quality, and business requirements set by Bonn Medical Industries.",
     "signature": "Signature",
     "date": "Date",
     "tradeLicense": "Trade/Commercial License",
@@ -765,8 +765,8 @@
     },
     "items": [
       {
-        "q": "What is Rubin Medical Industries?",
-        "a": "Rubin Medical Industries (BMI) is a Saudi factory specializing in contract manufacturing (OEM/Private Label) for supplements, wellness, nutrition, and medical products. We are certified under Good Manufacturing Practices (GMP) and ISO standards.",
+        "q": "What is Bonn Medical Industries?",
+        "a": "Bonn Medical Industries (BMI) is a Saudi factory specializing in contract manufacturing (OEM/Private Label) for supplements, wellness, nutrition, and medical products. We are certified under Good Manufacturing Practices (GMP) and ISO standards.",
         "category": "general"
       },
       {
@@ -799,7 +799,7 @@
   "departments": "Departments",
   "resources": {
     "title": "Brand Assets",
-    "subtitle": "Browse and download company profiles and important resources from Rubin Medical",
+    "subtitle": "Browse and download company profiles and important resources from Bonn Medical",
     "companyProfile": "Company Profile",
     "download": "Open File",
     "view": "View File"

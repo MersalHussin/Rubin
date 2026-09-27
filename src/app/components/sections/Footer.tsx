@@ -44,11 +44,11 @@ export default function Footer() {
         <div className="flex flex-col gap-6 lg:col-span-2">
           <div className="w-fit flex justify-start items-center">
             <Image 
-              src="/images/Rubin.png" 
-              alt="Rubin" 
+              src="/images/Logo-White.svg" 
+              alt="Bonn" 
               width={180} 
               height={70} 
-              className="object-contain brightness-0 invert opacity-100 transition-opacity" 
+              className="object-contain  opacity-100 transition-opacity" 
             />
           </div>
           <p className="text-sm leading-relaxed text-slate-400 max-w-sm font-medium">
@@ -162,7 +162,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="bg-[#05080f] text-center text-sm text-slate-400 py-6 border-t border-white/5">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="font-medium">© {new Date().getFullYear()} Rubin. {t("footer.rights", "All rights reserved.")}</p>
+          <p className="font-medium">© {new Date().getFullYear()} Bonn. {t("footer.rights", "All rights reserved.")}</p>
           <p className="text-xs opacity-80 flex items-center gap-2">
             {isAr ? "صُنع بكل فخر في المملكة العربية السعودية" : "Proudly made in Saudi Arabia"}
             <span className="text-lg">🇸🇦</span>

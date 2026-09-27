@@ -27,7 +27,7 @@ export default function PrivacyPolicyPage() {
         <div className="space-y-8 text-lg text-slate-600 leading-relaxed bg-white p-8 md:p-12 rounded-[2rem] shadow-[0_10px_40px_rgba(0,0,0,0.03)] border border-slate-100">
           {isAr ? (
             <>
-              <p>مرحباً بك في روبين. نحن نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية. توضح سياسة الخصوصية هذه كيف نجمع ونستخدم ونحمي معلوماتك عند زيارة موقعنا.</p>
+              <p>مرحباً بك في بون. نحن نحترم خصوصيتك ونلتزم بحماية بياناتك الشخصية. توضح سياسة الخصوصية هذه كيف نجمع ونستخدم ونحمي معلوماتك عند زيارة موقعنا.</p>
               
               <h2 className="text-2xl font-bold text-main mt-8 mb-4">1. المعلومات التي نجمعها</h2>
               <p>قد نقوم بجمع بيانات شخصية مثل الاسم، البريد الإلكتروني، ورقم الهاتف عند التسجيل أو التواصل معنا أو إتمام عملية الشراء.</p>
@@ -46,7 +46,7 @@ export default function PrivacyPolicyPage() {
             </>
           ) : (
             <>
-              <p>Welcome to Rubin. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website.</p>
+              <p>Welcome to Bonn. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we collect, use, and safeguard your information when you visit our website.</p>
               
               <h2 className="text-2xl font-bold text-main mt-8 mb-4">1. Information We Collect</h2>
               <p>We may collect personal data such as your name, email address, and phone number when you register, contact us, or complete a purchase.</p>

@@ -73,7 +73,7 @@ export default function Hero({ t, lang }: { t: any; lang: string }) {
                <div className="absolute inset-0 bg-gradient-to-tr from-second/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 z-20 pointer-events-none" />
                <Image
                  src="/images/bgHero.jpg"
-                 alt="Rubin Premium"
+                 alt="Bonn Premium"
                  fill
                  className="object-cover object-center rounded-[1.2rem] group-hover:scale-105 transition-transform duration-[2s] ease-out"
                  priority
