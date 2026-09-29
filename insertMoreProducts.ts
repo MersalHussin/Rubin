@@ -69,7 +69,7 @@ async function insertProducts() {
   console.log("Starting additional product insertion...");
   for (const p of products) {
     const { data, error } = await supabase
-      .from('havera_products')
+      .from('bonnfood_products')
       .insert([p])
       .select();
     

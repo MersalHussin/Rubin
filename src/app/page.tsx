@@ -36,7 +36,7 @@ export default function SensaPage() {
       
       try {
         const fetchPromise = supabase
-          .from("havera_products")
+          .from("bonnfood_products")
           .select("*")
           .order('created_at', { ascending: false });
           
