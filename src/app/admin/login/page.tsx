@@ -18,7 +18,7 @@ export default function SensaLogin() {
     setLoading(true);
     setError('');
 
-    if (email.toLowerCase() !== 'havera@admin.com') {
+    if (email.toLowerCase() !== 'food@admin.com') {
       setError('هذا البريد غير مصرح له بالدخول كمسؤول');
       setLoading(false);
       return;

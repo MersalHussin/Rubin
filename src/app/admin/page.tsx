@@ -36,22 +36,22 @@ export default function AdminProductsPage() {
       
       {/* Luxury Header */}
       <div className="relative overflow-hidden rounded-[1.5rem] bg-white border border-slate-100 shadow-sm p-8 md:p-10 z-10">
-        <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-red-500/5 to-transparent rounded-full blur-2xl opacity-60 -mr-10 -mt-10 pointer-events-none"></div>
-        <div className="absolute bottom-0 left-0 w-40 h-40 bg-gradient-to-tr from-main/5 to-transparent rounded-full blur-3xl opacity-70 -ml-10 -mb-10 pointer-events-none"></div>
+        <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-second/10 to-transparent rounded-full blur-2xl opacity-60 -mr-10 -mt-10 pointer-events-none"></div>
+        <div className="absolute bottom-0 left-0 w-40 h-40 bg-gradient-to-tr from-main/10 to-transparent rounded-full blur-3xl opacity-70 -ml-10 -mb-10 pointer-events-none"></div>
         
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 relative z-10">
           <div className="flex items-center gap-5">
-            <div className="bg-red-50 border border-red-100 p-4 rounded-2xl text-main shadow-sm">
+            <div className="bg-main text-second border border-main p-4 rounded-2xl shadow-sm">
               <PackageSearch size={32} strokeWidth={1.5} />
             </div>
             <div>
-              <p className="text-[11px] font-bold text-main uppercase tracking-[0.2em] mb-1.5">إدارة المخزون</p>
-              <h1 className="text-3xl md:text-4xl font-bold text-slate-800 tracking-tight">المنتجات</h1>
+              <p className="text-[11px] font-bold text-slate-500 uppercase tracking-[0.2em] mb-1.5">إدارة المخزون</p>
+              <h1 className="text-3xl md:text-4xl font-bold text-main tracking-tight">المنتجات</h1>
             </div>
           </div>
           <Link 
             href="/admin/products/new"
-            className="group flex items-center gap-2.5 bg-main text-white px-8 py-3.5 rounded-xl font-bold transition-all hover:bg-red-700 hover:shadow-md border border-red-700/50 w-full sm:w-auto justify-center"
+            className="group flex items-center gap-2.5 bg-second text-main px-8 py-3.5 rounded-xl font-bold transition-all hover:brightness-110 hover:shadow-md border border-second/50 w-full sm:w-auto justify-center shadow-[0_4px_20px_rgba(212,175,55,0.2)]"
           >
             <Plus size={20} strokeWidth={2.5} className="group-hover:rotate-90 transition-transform duration-300" />
             <span>إضافة منتج</span>
@@ -62,10 +62,10 @@ export default function AdminProductsPage() {
       {/* Stats Cards */}
       {!loading && !error && products.length > 0 && (
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between relative overflow-hidden group hover:border-slate-300 hover:shadow-md transition-all">
-            <div className="absolute top-0 right-0 w-1 h-full bg-slate-200 group-hover:bg-slate-400 transition-colors"></div>
+          <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between relative overflow-hidden group hover:border-main/20 hover:shadow-md transition-all">
+            <div className="absolute top-0 right-0 w-1 h-full bg-slate-100 group-hover:bg-main transition-colors"></div>
             <div className="flex items-center justify-between mb-4">
-              <div className="bg-slate-50 text-slate-500 p-3 rounded-xl border border-slate-100">
+              <div className="bg-slate-50 text-slate-500 p-3 rounded-xl border border-slate-100 group-hover:bg-main/5 group-hover:text-main transition-colors">
                 <PackageOpen size={20} strokeWidth={2} />
               </div>
             </div>
@@ -75,10 +75,10 @@ export default function AdminProductsPage() {
             </div>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between relative overflow-hidden group hover:border-red-200 hover:shadow-md transition-all">
-            <div className="absolute top-0 right-0 w-1 h-full bg-red-200 group-hover:bg-main transition-colors"></div>
+          <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between relative overflow-hidden group hover:border-second/50 hover:shadow-md transition-all">
+            <div className="absolute top-0 right-0 w-1 h-full bg-second/20 group-hover:bg-second transition-colors"></div>
             <div className="flex items-center justify-between mb-4">
-              <div className="bg-red-50 text-main p-3 rounded-xl border border-red-100">
+              <div className="bg-second/10 text-second p-3 rounded-xl border border-second/20">
                 <Star size={20} strokeWidth={2} />
               </div>
             </div>
@@ -88,10 +88,10 @@ export default function AdminProductsPage() {
             </div>
           </div>
           
-          <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between relative overflow-hidden group hover:border-slate-300 hover:shadow-md transition-all">
-            <div className="absolute top-0 right-0 w-1 h-full bg-slate-200 group-hover:bg-slate-400 transition-colors"></div>
+          <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between relative overflow-hidden group hover:border-main/20 hover:shadow-md transition-all">
+            <div className="absolute top-0 right-0 w-1 h-full bg-slate-100 group-hover:bg-main transition-colors"></div>
             <div className="flex items-center justify-between mb-4">
-              <div className="bg-slate-50 text-slate-500 p-3 rounded-xl border border-slate-100">
+              <div className="bg-slate-50 text-slate-500 p-3 rounded-xl border border-slate-100 group-hover:bg-main/5 group-hover:text-main transition-colors">
                 <Tag size={20} strokeWidth={2} />
               </div>
             </div>
@@ -172,8 +172,8 @@ export default function AdminProductsPage() {
                       </td>
                       <td className="py-5 px-6">
                         {product.best_selling ? (
-                          <div className="flex items-center gap-1.5 text-main bg-red-50 border border-red-100 px-3 py-1.5 rounded-lg text-xs font-bold w-fit">
-                            <Star size={14} className="fill-main text-main" />
+                          <div className="flex items-center gap-1.5 text-second bg-second/10 border border-second/20 px-3 py-1.5 rounded-lg text-xs font-bold w-fit">
+                            <Star size={14} className="fill-second text-second" />
                             <span>أكثر مبيعاً</span>
                           </div>
                         ) : (
@@ -187,7 +187,7 @@ export default function AdminProductsPage() {
                         <div className="flex items-center justify-end gap-3 opacity-70 group-hover:opacity-100 transition-opacity">
                           <Link 
                             href={`/admin/products/${product.id}/edit`}
-                            className="flex items-center justify-center w-9 h-9 bg-white border border-slate-200 text-slate-500 hover:text-main hover:border-red-200 hover:bg-red-50 rounded-lg transition-all shadow-sm"
+                            className="flex items-center justify-center w-9 h-9 bg-white border border-slate-200 text-slate-500 hover:text-second hover:border-second/30 hover:bg-second/10 rounded-lg transition-all shadow-sm"
                             title="تعديل"
                           >
                             <Edit size={16} strokeWidth={2} />
@@ -239,8 +239,8 @@ export default function AdminProductsPage() {
                           </span>
                         )}
                         {product.best_selling && (
-                          <span className="flex items-center gap-1 text-[9px] text-main border border-red-100 px-2 py-0.5 rounded bg-red-50">
-                            <Star size={9} className="fill-main text-main" />
+                          <span className="flex items-center gap-1 text-[9px] text-second border border-second/20 px-2 py-0.5 rounded bg-second/10 font-bold">
+                            <Star size={9} className="fill-second text-second" />
                             أكثر مبيعاً
                           </span>
                         )}
@@ -251,7 +251,7 @@ export default function AdminProductsPage() {
                   <div className="flex justify-end gap-2 mt-1">
                     <Link 
                       href={`/admin/products/${product.id}/edit`}
-                      className="flex items-center justify-center gap-2 px-4 py-2 bg-slate-50 border border-slate-200 text-slate-600 rounded-lg text-xs font-bold active:bg-slate-100 transition-colors"
+                      className="flex items-center justify-center gap-2 px-4 py-2 bg-slate-50 border border-slate-200 text-slate-600 hover:text-second hover:bg-second/5 hover:border-second/20 rounded-lg text-xs font-bold transition-all"
                     >
                       <Edit size={14} strokeWidth={2} />
                       تعديل
